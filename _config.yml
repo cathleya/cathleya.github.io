@@ -9,7 +9,6 @@ url: #http://localhost:4000
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
 sass:
@@ -17,8 +16,14 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
+
+#permalink:   /:categories/:title/
+# Amount of post to show on home page
+paginate: 5
+paginate_path: "articles/page:num"
 
 kramdown:
   input: GFM
