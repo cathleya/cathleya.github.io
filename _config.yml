@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Cathleya's Blog
 locale: en_US
-description: Describe your website here.
+description: My articles and my blogs,happy work and happy life.
 logo: site-logo.png
 search: true
 url: #http://localhost:4000
@@ -16,7 +16,6 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-  #- jekyll-paginate
   - jekyll-gist
   - jekyll-feed
 
@@ -41,9 +40,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: cathleya
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: cathleya2016@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
