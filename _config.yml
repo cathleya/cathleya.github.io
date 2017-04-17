@@ -16,14 +16,14 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-gist
   - jekyll-feed
 
-#permalink:   /:categories/:title/
+permalink:   /:categories/:title/
 # Amount of post to show on home page
-paginate: 5
-paginate_path: "articles/page:num"
+#paginate: 5
+#paginate_path: "articles/page:num"
 
 kramdown:
   input: GFM
