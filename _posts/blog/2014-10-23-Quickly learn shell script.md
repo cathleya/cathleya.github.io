@@ -4,7 +4,7 @@ title: "Quickly learn shell script"
 modified:
 categories: blog
 excerpt:
-tags: [Useful Tools]
+tags: [Shell,Unix]
 image:
   feature:
 date: 2014-10-23T15:39:55-04:00
