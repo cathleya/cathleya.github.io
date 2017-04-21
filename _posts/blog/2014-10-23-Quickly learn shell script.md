@@ -151,7 +151,11 @@ curl
 
 
 
+#### 4. useful code 
 
+```
+find . "(" -name "*.m" -or -name "*.h"  ")" -print | xargs wc -l
+```
 
 
 -------
