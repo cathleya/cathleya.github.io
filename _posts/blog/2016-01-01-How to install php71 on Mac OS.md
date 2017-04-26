@@ -7,11 +7,12 @@ excerpt:
 tags: [php71]
 image:
   feature:
-date: 2015-08-11T08:08:50-04:00
+date: 2015-04-11T08:08:50-04:00
+modified: 2016-05-11T14:19:19-04:00
 ---
 
 
-# php71-install 
+# [php71-install](https://www.tutorialspoint.com/php7/index.htm)
 
 ## [install brew](http://brew.sh/)
 
