@@ -7,11 +7,12 @@ excerpt:
 tags: [Nginx,hls,rtmp]
 image:
   feature:
-date: 2015-06-11T08:08:50-04:00
+date: 2016-06-11T08:08:50-04:00
+modified: 2017-02-11T14:19:19-04:00
 ---
 
 
-If you install nginx in Mac OS ,your nginx can't work correctly,especially con't find right defined controllers and functions which correspond to rounters.The following configration can configuration can help you resolve those problem,and make it support hls protocol and rtmp protocol.
+If you install nginx on Mac OS ,your nginx won't work well,especially it can't find right defined controllers and functions which correspond to the rounters.The following configration  can help resolve those problems,and let it support hls protocol and rtmp protocol.
 
 
 # Nginx Configuration 

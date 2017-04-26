@@ -74,55 +74,7 @@ then you wanna give up shutting down ,then type:
 2.launch Remote Desktop Connection and input ip/computer name &&usr name and password
 
 
-## 4. MAC os apache macos-sierra-apache-ssl
-
-[vist blog here for more detail](https://getgrav.org/blog/macos-sierra-apache-ssl)
-
-1.$ sudo nano /etc/apache2/httpd.conf
-
-2.LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
-...
-LoadModule ssl_module libexec/apache2/mod_ssl.so
-...
-Include /private/etc/apache2/extra/httpd-ssl.conf
-
-3.$ sudo nano /etc/apache2/extra/httpd-vhosts.conf
-
-<VirtualHost *:443>
-DocumentRoot "/Users/your_user/Sites"
-ServerName localhost
-SSLEngine on
-SSLCertificateFile "/private/etc/apache2/server.crt"
-SSLCertificateKeyFile "/private/etc/apache2/server.key"
-</VirtualHost>
-
-First generate a key:
-
-$ cd /etc/apache2
-$ sudo ssh-keygen -f server.key
-Then generate a certificate signing request:
-
-$ sudo openssl req -new -key server.key -out server.csr
-Using this CSR, generate the certificate:
-
-$ sudo openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
-The convert the key to a no-phrase key:
-
-$ sudo openssl rsa -in server.key -out server.key
-Then all you need to do now is double check your Apache configuration syntax:
-
-$ sudo apachectl configtest
-If all goes well, restart Apache:
-
-$ sudo apachectl -k restart
-
-***please draw attention to media type***
-/private/etc/apache2/mime.types
-
-application/octet-stream ipa
-text/xml plist
-
-## 4. MAC os useful apps 
+## 4. MAC os useful apps and [software](http://www.ifunmac.com/) rsers
 
 1. Do Http
 2. UnRarX

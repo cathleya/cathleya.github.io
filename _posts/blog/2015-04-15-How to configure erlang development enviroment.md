@@ -4,10 +4,11 @@ title: "How to configure erlang development enviroment"
 modified:
 categories: blog
 excerpt:
-tags: [Erlang,String]
+tags: [Erlang,cowboy]
 image:
   feature:
 date: 2015-06-19T08:08:50-04:00
+modified: 2016-05-11T14:19:19-04:00
 ---
 
 
@@ -39,7 +40,7 @@ make run
 
 ```
 
-you can [learn more]().
+you can [learn more](https://ninenines.eu/docs/en/cowboy/2.0/guide/getting_started/).
 
 
 

@@ -7,7 +7,8 @@ excerpt:
 tags: [swift,GCD]
 image:
   feature:
-date: 2017-04-01T08:08:50-04:00
+date: 2016-05-08T08:08:50-04:00
+modified: 2017-03-11T14:19:19-04:00
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to install php71 in Mac OS"
+title: "How to install php71 on Mac OS"
 modified:
 categories: blog
 excerpt:
@@ -13,9 +13,8 @@ date: 2015-08-11T08:08:50-04:00
 
 # php71-install 
 
-## install brew 
+## [install brew](http://brew.sh/)
 
-http://brew.sh/
 
 
 ```
@@ -85,6 +84,8 @@ sudo rm -rf /etc/apache2
 sudo rm -rf /usr/include/apahce2
 
 ```
+
+then restart the mac.
 
 ## delete origional php
 
