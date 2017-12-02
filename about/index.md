@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the  Theme
+title: About me
 excerpt: "So Simple is a responsive  theme for your words and images."
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
@@ -9,18 +9,20 @@ image:
   creditlink: https://github.com/cathleya
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+I’m cathleya, I’m a designer, engineer, company runner. I like traveling ,leaning ,and making new friends.if you like the technologies showed in my articles and blogs, please contact me ,we can discuss together and improve ourselves. 
 
-## So Simple Theme is all about:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
+## I’m very glad to meet you in technology,
+
 * Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+* [Click here](https://cathleya.github.io/) to access my blog.
+
+* [Click here](https://github.com/cathleya) to access to my github
+
+* My E-mail:cathleya2016@gmail.com.
+
+
+<a markdown="0" href="{{ site.url }}/about" class="btn">Contact me</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
