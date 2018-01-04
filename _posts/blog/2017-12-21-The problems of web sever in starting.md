@@ -30,6 +30,14 @@ Today I've putted my sample web project to sever,there are so many problems occu
 
 * install [phpMyAdmin](https://www.phpmyadmin.net/downloads/)
 
+	 `sudo chmod -R 0777 /var/lib/php/session`
+	
+    `vi phpMyAdmin/libraries/config.default.php `
+    
+    `$cfg['Servers'][$i]['AllowNoPassword'] = true`
+	
+	
+
 ### The disposal of error ###
 
 * Error in (sudo yum install php-mysql)
