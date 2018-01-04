@@ -101,7 +101,7 @@ modified: 2016-10-30T14:19:19-04:00
 
 iPhone 4s ：640x960px
 
-iPhone 5:640x1136px
+iPhone 5: 640x1136px
 
 iPhone 6：750X1136px
 
@@ -111,8 +111,14 @@ iPhone 6s：1242x2208px
 
 ***
 
+http://makeappicon.com/
 
+http://ydimage.yidianhulian.com/
+
+http://www.atool.org/ios_logo.php
 
 -------
 
 [TOC]
+
+
