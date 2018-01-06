@@ -48,6 +48,18 @@ Today I've putted my sample web project to sever,there are so many problems occu
 
     `sudo yum install php71w-mysql`
 
+* Warning: mysql_connect(): Headers and client library minor version mismatch.
+
+   `yum remove php-mysql  
+   yum install php-mysqlnd `
+   
+* CI cathepa
+
+       `yum install php71w-gd
+       systemctl restart php-fpm`
+    
+    
+
 
 -------
 
