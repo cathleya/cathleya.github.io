@@ -6,7 +6,7 @@ categories: articles
 tags: [sample-post, video]
 comments: true
 share: true
-modified: 2016-06-01T14:18:26-04:00
+modified: 2014-04-01T12:18:26-05:00
 ---
 
 For thousands of years, prison has been a primary mode of punishment for lawbreakers. Nowadays it plays an important role and yield benefits in society as a whole. Prison serves punishing offenders, correcting prisoners, keeping the criminals off the streets, deterring whom are willing to commit a crime. Therefore, it is very definitely that lawbreakers should be sent to prison, especially those who posed a genuine risk to society.
