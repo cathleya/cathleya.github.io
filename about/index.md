@@ -9,7 +9,7 @@ image:
   creditlink: https://github.com/cathleya
 ---
 
-I’m cathleya, I’m a designer, engineer, company runner. I like traveling ,leaning ,and making new friends.if you like the technologies showed in my articles and blogs, please contact me ,we can discuss together and improve ourselves. 
+I’m cathleya, I’m a designer and engineer,I know so many programming languages and design software,such as C/C++,Object-C,swift,php,javascript,erlang,shell,actionscript and Photoshop,flash,Illustrator,etc.I like traveling ,leaning ,and making new friends.if you like the technologies showed in my articles and blogs, please contact me ,we can coummuicate together and improve ourselves. 
 
 
 ## I’m very glad to meet you in technology,
