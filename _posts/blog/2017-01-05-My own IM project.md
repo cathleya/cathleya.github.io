@@ -12,7 +12,7 @@ modified: 2017-01-05T10:10:19-14:00
 ---
 
 
-This is comprehensive project,the source code include [erlang server](https://github.com/cathleya/Really) and [swift client](https://github.com/cathleya/CoolGame) .
+This is comprehensive project matters for [erlang server](https://github.com/cathleya/Really) and [swift client](https://github.com/cathleya/CoolGame) .
 
 ### feature ###
 

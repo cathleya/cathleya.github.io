@@ -9,7 +9,7 @@ image:
   creditlink: https://github.com/cathleya
 ---
 
-I’m cathleya, I’m a designer and engineer,I know so many programming languages and design software,such as C/C++,Object-C,swift,php,javascript,erlang,shell,actionscript and Photoshop,flash,Illustrator,etc.I like traveling ,leaning ,and making new friends.if you like the technologies showed in my articles and blogs, please contact me ,we can coummuicate together and improve ourselves. 
+I’m cathleya,most of my projects are comprehensive techinical matters,they matter for swift,php,erlang,etc.my main mind is a field in which the rich interaction between sides of server and client.Hopefully,those blogs will express the path of my minds of pursuit of technology and science,simultaneously create a sensation for those who read it.  
 
 
 ## I’m very glad to meet you in technology,

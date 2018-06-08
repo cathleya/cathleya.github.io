@@ -12,7 +12,7 @@ modified: 2018-02-23T10:09:19-04:00
 ---
 
 
-This is comprehensive project that includes [php server](https://github.com/cathleya/Axis_Serve), [vue admin](https://github.com/cathleya/Axis_Admin) and [client](https://github.com/cathleya/Axis_home).
+This is comprehensive project matters for [php server](https://github.com/cathleya/Axis_Serve), [vue admin](https://github.com/cathleya/Axis_Admin) and [client](https://github.com/cathleya/Axis_home).
 
 
 
@@ -28,7 +28,7 @@ This is comprehensive project that includes [php server](https://github.com/cath
 
 ### starting project ###
 
-* gem install jekyll
+* npm run dev & npm run build
 
 ### Bugs ###
 
