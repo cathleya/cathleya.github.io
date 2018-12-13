@@ -43,6 +43,16 @@ This blog records how i used.
 
 [记忆编码](https://cathleya.github.io/images/energy/index.html)
 
+git server [搭建](https://about.gitlab.com/)[流程](https://www.jianshu.com/p/a22eaa1fcfe7)
+
+[注释文档](http://apidocjs.com/)自动生成
+
+[无限创意](https://baijiahao.baidu.com/u?app_id=1574692218036249)
+
+[脂溢性皮炎](http://www.cholinergicurticaria.net/cu-cholinergic-urticaria-story/)
+
+
+
 2. access mysql
 
 
