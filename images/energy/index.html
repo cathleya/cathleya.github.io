@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>bgdemo</title>
+    <style type="text/css">
+        body{
+            background: -webkit-linear-gradient(left top, #f301fc , #20a2f4);
+            background: -o-linear-gradient(bottom right, #f301fc, #20a2f4);
+            background: -moz-linear-gradient(bottom right, #f301fc, #20a2f4);
+            background: linear-gradient(to bottom right, #f301fc , #20a2f4);
+            text-align: center;
+        }
+        h1{
+            color: #fff;
+        }
+        li{
+            width: 280px;
+            height: 265px;
+            background: #cccc;
+            margin: 20px 5px;
+            display: inline;
+            float: left;
+            list-style-type: none;
+        }
+        h3{
+            background: #fff;
+            margin: 0px auto;
+        }
+        #energy{
+            margin: 5px;
+            padding-bottom: 50px;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            let arr00 = [{id:'0',src:'0.jpg'},
+                        {id:'1',src:'1.jpg'},
+                        {id:'2',src:'2.jpg'},
+                        {id:'3',src:'3.jpg'},
+                        {id:'4',src:'4.jpg'},
+                        {id:'5',src:'5.jpg'},
+                        {id:'6',src:'6.jpg'},
+                        {id:'7',src:'7.jpg'},
+                        {id:'8',src:'8.jpg'},
+                        {id:'9',src:'9.jpg'},
+                       {id:'00',src:'00.jpg'},
+                       {id:'01',src:'01.jpg'},
+                       {id:'02',src:'02.jpg'},
+                       {id:'03',src:'03.jpg'},
+                       {id:'04',src:'04.jpg'},
+                       {id:'05',src:'05.jpg'},
+                       {id:'06',src:'06.jpg'},
+                       {id:'07',src:'07.jpg'},
+                       {id:'08',src:'08.jpg'},
+                       {id:'09',src:'09.jpg'},
+                       {id:'10',src:'10.jpg'},
+                       {id:'11',src:'11.jpg'},
+                       {id:'12',src:'12.jpg'},
+                       {id:'13',src:'13.jpg'},
+                       {id:'14',src:'14.jpg'},
+                       {id:'15',src:'15.jpg'},
+                       {id:'16',src:'16.jpg'},
+                       {id:'17',src:'17.jpg'},
+                       {id:'18',src:'18.jpg'},
+                       {id:'19',src:'19.jpg'},
+                       {id:'20',src:'20.jpg'},
+                       {id:'21',src:'21.jpg'},
+                       {id:'22',src:'22.jpg'},
+                       {id:'23',src:'23.jpg'},
+                       {id:'24',src:'24.jpg'},
+                       {id:'25',src:'25.jpg'},
+                       {id:'26',src:'26.jpg'},
+                       {id:'27',src:'27.jpg'},
+                       {id:'28',src:'28.jpg'},
+                       {id:'29',src:'29.jpg'},
+                       {id:'30',src:'30.jpg'},
+                       {id:'31',src:'31.jpg'},
+                       {id:'32',src:'32.jpg'},
+                       {id:'33',src:'33.jpg'},
+                       {id:'34',src:'34.jpg'},
+                       {id:'35',src:'35.jpg'},
+                       {id:'36',src:'36.jpg'},
+                       {id:'37',src:'37.jpg'},
+                       {id:'38',src:'38.jpg'},
+                       {id:'39',src:'39.jpg'},
+                       {id:'40',src:'40.jpg'},
+                       {id:'41',src:'41.jpg'},
+                       {id:'42',src:'42.jpg'},
+                       {id:'43',src:'43.jpg'},
+                       {id:'44',src:'44.jpg'},
+                       {id:'45',src:'45.jpg'},
+                       {id:'46',src:'46.jpg'},
+                       {id:'47',src:'47.jpg'},
+                       {id:'48',src:'48.jpg'},
+                       {id:'49',src:'49.jpg'},
+                       {id:'50',src:'50.jpg'},
+                       {id:'51',src:'51.jpg'},
+                       {id:'52',src:'52.jpg'},
+                       {id:'53',src:'53.jpg'},
+                       {id:'54',src:'54.jpg'},
+                       {id:'55',src:'55.jpg'},
+                       {id:'56',src:'56.jpg'},
+                       {id:'57',src:'57.jpg'},
+                       {id:'58',src:'58.jpg'},
+                       {id:'59',src:'59.jpg'},
+                       {id:'60',src:'60.jpg'},
+                       {id:'61',src:'61.jpg'},
+                       {id:'62',src:'62.jpg'},
+                       {id:'63',src:'63.jpg'},
+                       {id:'64',src:'64.jpg'},
+                       {id:'65',src:'65.jpg'},
+                       {id:'66',src:'66.jpg'},
+                       {id:'67',src:'67.jpg'},
+                       {id:'68',src:'68.jpg'},
+                       {id:'69',src:'69.jpg'},
+                       {id:'70',src:'70.jpg'},
+                       {id:'71',src:'71.jpg'},
+                       {id:'72',src:'72.jpg'},
+                       {id:'73',src:'73.jpg'},
+                       {id:'74',src:'74.jpg'},
+                       {id:'75',src:'75.jpg'},
+                       {id:'76',src:'76.jpg'},
+                       {id:'77',src:'77.jpg'},
+                       {id:'78',src:'78.jpg'},
+                       {id:'79',src:'79.jpg'},
+                       {id:'80',src:'80.jpg'},
+                       {id:'81',src:'81.jpg'},
+                       {id:'82',src:'82.jpg'},
+                       {id:'83',src:'83.jpg'},
+                       {id:'84',src:'84.jpg'},
+                       {id:'85',src:'85.jpg'},
+                       {id:'86',src:'86.jpg'},
+                       {id:'87',src:'87.jpg'},
+                       {id:'88',src:'88.jpg'},
+                       {id:'89',src:'89.jpg'},
+                       {id:'90',src:'90.jpg'},
+                       {id:'91',src:'91.jpg'},
+                       {id:'92',src:'92.jpg'},
+                       {id:'93',src:'93.jpg'},
+                       {id:'94',src:'94.jpg'},
+                       {id:'95',src:'95.jpg'},
+                       {id:'96',src:'96.jpg'},
+                       {id:'97',src:'97.jpg'},
+                       {id:'98',src:'98.jpg'},
+                       {id:'99',src:'99.jpg'}
+                        ]
+            
+            let arr01 = []
+            for (var i=0;i<arr00.length;i++){
+                var html = '<li>' +'<img src='+'./images/'+arr00[i].src+
+                '>'+'<h3>' +arr00[i].id+
+                '</h3>'+
+                '</li>';
+                arr01.push(html)
+            }
+            document.getElementById("energy").innerHTML=arr01.join('');
+        }
+    </script>
+</head>
+<body>
+
+<h1>数字能量编码</h1>
+
+<ul id="energy">
+
+</ul>
+
+
+</body>
+</html>
