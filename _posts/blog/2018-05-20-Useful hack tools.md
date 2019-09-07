@@ -21,15 +21,15 @@ This blog records how i used.
 *
 ### tools ###
 
-#1. Violent password online cracking tool [Hydra]()
+1. Violent password online cracking tool [Hydra]()
 
-#2. Open Source Security Vulnerability Detection Tool [Metasploit]()
+2. Open Source Security Vulnerability Detection Tool [Metasploit]()
 
-#3. AI fake app [deepfake](),[FakeApp](),[DeepNude]()
+3. AI fake app [deepfake](),[FakeApp](),[DeepNude]()
 
-#4. Free and Open source Hosting Control Panel [aaPanel](https://www.aapanel.com/)
+4. Free and Open source Hosting Control Panel [aaPanel](https://www.aapanel.com/)
 
-#5. Hacker community
+5. Hacker community
 
 ##[0X557](https://www.0x557.com/)
 
@@ -41,7 +41,7 @@ This blog records how i used.
 
 
 
-#5. public opinion monitor
+6. public opinion monitor
 
 ##危机公关[中国十强危机公关单位](http://weiji.vmmt.net/)
 
