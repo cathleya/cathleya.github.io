@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Importing mysql file to centos"
+title: "Usage of mysql in centos"
 modified:
 categories: blog
 excerpt:
