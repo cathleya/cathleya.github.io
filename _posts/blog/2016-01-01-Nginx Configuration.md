@@ -275,12 +275,94 @@ rtmp://127.0.0.1:1935/hls/home
 
 
 
+###  CI -	ignorance of index.php in the urls
 
 
+```
+
+server {
+        listen       80;
+        server_name  www.xally.org xally.org;
+        root   "D:\phpStudy\PHPTutorial\WWW\xally";
+        location / {
+            index  index.html index.htm index.php;
+		if (-f $request_filename) {
+        		expires max;
+        		break;
+    	 	}
+   	 	if (!-e $request_filename) {
+        		rewrite ^/(.*)$ /index.php/$1 last;
+    	    	}
+            #autoindex  on;
+        }
+        location ~ \.php(.*)$ {
+            fastcgi_pass   127.0.0.1:9000;
+            fastcgi_index  index.php;
+            fastcgi_split_path_info  ^((?U).+\.php)(/?.+)$;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            fastcgi_param  PATH_INFO  $fastcgi_path_info;
+            fastcgi_param  PATH_TRANSLATED  $document_root$fastcgi_path_info;
+            include        fastcgi_params;
+        }
+}
 
 
+location /{
+	index  index.html index.htm index.php;
+    	if (-f $request_filename) {
+        expires max;
+        break;
+    	}
+   	 if (!-e $request_filename) {
+        rewrite ^/(.*)$ /index.php/$1 last;
+    	}
+}
 
 
+```
+
+
+###	Judge if it's a spider jump
+
+
+```
+
+	location /
+	{
+		try_files $uri $uri/ /index.php?$args;
+  		set $ant 0;
+  		if ($http_user_agent ~* "spider|bot")
+    	{
+			set $ant 1;  
+    	}
+ 		if ( $ant = 0 ){
+			proxy_pass http://370zs.com;
+		}
+	}
+
+```
+
+
+###	Judgement of spider and proxy
+
+
+```
+
+	upstream zhizhu {
+		server 192.168.2.147;
+	}
+
+	server{
+		location /   {
+			if ($http_user_agent ~* "qihoobot|Baiduspider|Googlebot|Googlebot-Mobile|Googlebot-Image|Mediapartners-Google|Adsbot-Google|Feedfetcher-Google|Yahoo! Slurp|Yahoo! Slurp China|YoudaoBot|Sosospider|Sogou spider|Sogou web spider|MSNBot|ia_archiver|Tomato Bot|YisouSpider") 
+			{ 
+				proxy_pass http://zhizhu;
+
+			} 
+		}
+	}
+
+```
 
 
 -------
