@@ -33,7 +33,7 @@ This blog records how i used.
 
 ##[0X557](https://www.0x557.com/)
 
-##灰产圈[0X557](https://www.0x557.com/)
+##灰产圈[freebuf](https://zhuanlan.freebuf.com/column/index/?name=%E7%81%B0%E4%BA%A7%E5%9C%88)
 
 ##[看雪学院](https://www.kanxue.com/)
 
