@@ -176,6 +176,10 @@ curl -u username https://api.github.com/user?access_token=XXXXXXXXXX
 
 curl -u username --data "param1=value1&param2=value" https://api.github.com
 
+curl localhost:9999/api/daizhige/article -X POST -d "title=comewords&content=articleContent"
+
+curl localhost:9999/api/daizhige/article -X POST -H "Content-Type:application/json" -d '"title":"comewords","content":"articleContent"'
+
 # upload assigned directory with files to sever
 
 curl --data @filename https://github.api.com/authorizations
@@ -195,6 +199,8 @@ curl -I -X DELETE https://api.github.cim
 # upload file 
 
 curl --form "fileupload=@filename.txt" http://hostname/resource
+
+curl localhost:8000/api/v1/upimg -F "file=@/Users/fungleo/Downloads/401.png" -H "token: 222" -v
        
 ```
 
