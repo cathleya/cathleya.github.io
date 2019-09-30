@@ -225,6 +225,18 @@ OK。。。。。。。
 ```
 
 
+### 7. searching file according to contents
+
+
+```
+
+find -type f -name '*.php'|xargs grep 'test'
+
+
+```
+
+
+
 -------
 
 [TOC]
